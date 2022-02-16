@@ -1,0 +1,33 @@
+.header{
+   display:flex;
+   justify-content: start;
+   align-items: center;
+   padding-left: 5%;
+   background-color: black;
+}
+
+.header__logo{
+    width: 4vw;
+    height: auto;
+}
+
+.header__login{
+   position: relative;
+   margin-left: 1%;
+   font-family: NotoSans;
+   font-style: normal;
+   font-size: 18px;
+   line-height: 25px;
+   color: #FFFFFF;
+   border-bottom: 1px #FFFFFF solid;
+   text-decoration: none;
+}
+.header__title{
+    padding-left: 7%;
+    width: 4vw;
+}
+
+.header__icon{
+    position: relative;
+    padding-left: 15%;
+}

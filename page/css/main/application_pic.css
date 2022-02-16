@@ -1,0 +1,32 @@
+.application-demo{
+    position: absolute;
+    right: 10vw;
+    top:0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.application-demo__icon{
+    display: flex;
+    justify-content: center;
+}
+.application-demo__icon img{
+    width: 38vw;
+    height: auto;
+    margin: 0 auto;
+}
+.application-demo__cases{
+    display: flex;
+    margin-top: 0;
+    justify-content:center;
+}
+.application-demo__cases__appstore{
+    width: 12vw;
+    height: auto;
+    margin-right: 10px;
+}
+.application-demo__cases__googleplay{
+    width: 13vw;
+    height: auto;
+    margin-left: 10px;
+}

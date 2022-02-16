@@ -1,0 +1,64 @@
+.generate-qr-code{
+    background-color: black;
+    padding-top: 500px;
+    width: 100%;
+}
+.generate-qr-code__phone{
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    background-image: url('../../img/generate-qr-code__Notab.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 70%;
+}
+.generate-qr-code__phone__arrow-scan{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 30%;
+    right: 15%;
+}
+/* .generate-qr-code__phone__arrow-scan__arrow{} */
+.generate-qr-code__phone__arrow-scan__scan{
+    color:white;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    padding-left: 75px;
+}
+.generate-qr-code__background{
+    position: absolute;
+    background: linear-gradient(12.08deg, #F101BF 2.82%, #0066FF 97.06%);
+    opacity: 0.15;
+    filter: blur(311.569px);
+    transform: rotate(-0.55deg);
+    width: 72vw;
+    height: 72vw;
+    top: -35%
+}
+.generate-qr-code__columns{
+    display:flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+.generate-qr-code__columns__column-1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 51px;
+    line-height: 62px;
+    padding-left: 60px;
+}
+.generate-qr-code__columns__column-2{
+    font-family: NotoSans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    padding-right: 80px;
+}

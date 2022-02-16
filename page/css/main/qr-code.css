@@ -1,0 +1,83 @@
+.qr-code{
+    background-color: black;
+    padding-bottom: 200px;
+    width: 100%;
+}
+.qr-code__background{
+    background-image: linear-gradient(179.83deg, #000000 -3.1%, rgba(0, 0, 0, 0) 56.76%, #000000 83.92%),
+        url('../../img/qr-code__background.png');
+    background-position: top left;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content:space-between;
+    align-items: end;
+    width: 100%;
+}
+.qr-code__water img{
+    width: 100%;
+}
+.qr-code__title{
+    position: absolute;
+    margin-left: 45%;
+}
+.qr-code__title img{
+    width: 15vw;
+}
+.qr-code__item{
+    position: relative;
+    order: 2;
+    max-width: 50vw;
+}
+.qr-code__column{
+    color: white;
+    order: 1;
+    padding-left: 8%;
+}
+.qr-code__column__heading{
+    padding-left: 10%;
+    padding-bottom: 10%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4vw;
+    line-height: 62px;
+}
+.qr-code__column__text{
+    padding-left: 10%;  
+    font-family: NotoSans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+}
+.qr-code__column__download-items{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10%;
+}
+/* .qr-code__column__download-items__appstore{} */
+.qr-code__column__download-items__google{
+    padding-left: 10%;
+}
+.qr-code__phones{
+    margin-top: -25%;
+    position: absolute;
+    display: flex;
+    margin-left: 45%;
+}
+.qr-code__phones__item-1{
+    padding-right: 10%;
+    margin-left: -4%;
+}
+.qr-code__phones__item-2{
+    padding-top: 50%;
+    padding-left: 5%;
+}
+.qr-code__phones__item-1 img{
+    width: 20vw;
+    height: auto;
+}
+.qr-code__phones__item-2 img{
+    width: 20vw;
+    height: auto;
+}

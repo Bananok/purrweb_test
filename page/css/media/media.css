@@ -1,0 +1,741 @@
+@media screen and (max-width: 1200px) {
+    .about-mission__column{
+        margin-top: 28%;
+        margin-left: 67%;
+    }
+    .bi-tools__icons__icon-7 img{
+        width: 20vw;
+        height: auto;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .about-mission__column{
+        margin-left: 57%;
+        margin-top: 20%;
+    }
+    .about-mission__phone-pic img{
+        width: 60vw;
+    }
+    .verification__phones__phone-1 img{
+        width: 25vw;
+    }
+    .verification__phones__phone-2 img{
+        width: 25vw;
+    }
+    .verification__column__heading{
+        font-size: 5vw;
+    }
+    .verification__column__text{
+        font-size: 2vw;
+    }
+    .qr-code__column{
+        padding-left: 1%;
+    }
+    .qr-code__column__download-items__appstore img{
+        width: 17vw;
+    }
+    .qr-code__column__download-items__google img{
+        width: 17vw;
+    }
+    .qr-code__column__text{
+        font-size: 16px;
+    }
+    .generate-qr-code__phone__arrow-scan{
+        top: 30%;
+        right: 0%;
+    }
+    .about__background-3{
+        top: 45%;
+    }
+}
+@media screen and (max-width: 950px) {
+    .bi-tools__icons__icon-1 img{
+        width: 15vw;
+    }
+    .bi-tools__icons__icon-2 img{
+        width: 15vw;
+    }
+    .bi-tools__icons__icon-3 img{
+        width: 15vw;
+    }
+    .bi-tools__icons__icon-4 img{
+        width: 15vw;
+    }
+    .bi-tools__icons__icon-5 img{
+        width: 15vw;
+    }
+    .bi-tools__icons__icon-6 img{
+        width: 15vw;
+    }
+    .bi-tools__icons__icon-7 img{
+        width: 15vw;
+    }
+    .notab__img img{
+        width: 75vw;
+    }
+}
+@media screen and (max-width: 880px) {
+    .phone-long__phone-pic img{
+        width: 80vw;  
+    }
+    .qr-code__column__text{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 780px) {
+    .header__title{
+        padding-left: 100px;
+    }
+    .application-demo{
+        top:10%;
+    }
+    .about-mission__column img{
+        margin-left: -20%;
+    }
+    .about-mission__column__heading{
+        font-size: 6vw;
+    }
+    .about-mission__column__text{
+        font-size: 14px;
+    }
+    .bi-tools{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 100px;
+    }   
+    .bi-tools__column{
+        width: 90vw;
+    }
+    .bi-tools__icons img{
+        width: 20vw;
+    }
+    .bi-tools__icons{
+        padding-top: 100px;
+    }
+    .bi-tools__icons__icon-7{
+        right: 20%;
+    }
+    .generate-qr-code__phone__img img{
+        width: 40vw;
+    }
+    .generate-qr-code__phone__arrow-scan{
+        right: 0%;
+    }
+    .generate-qr-code__phone__arrow-scan__arrow img{
+        width: 10vw;
+        padding-left: 20px;
+    }
+    .generate-qr-code__phone__arrow-scan__scan{
+        font-size: 2vw;
+        padding-right: 20px;
+    }
+    .generate-qr-code__columns__column-1{
+        font-size: 31px;
+        padding-left: 30px;
+    }
+    .generate-qr-code__columns__column-2{
+        font-size: 15px;
+        padding-right: 30px;
+    }
+    .get-in-touch__background-1 img{
+        width: 500px;
+    }
+    .about-mission__column__background img{
+        width: 30vw;
+    }
+}
+@media screen and (max-width: 500px) {
+    .header{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 5%;
+        padding-top: 8%;
+    }
+     
+    .header__logo{
+        width: 3vw;
+        height: auto;
+    }
+     
+    .header__login{
+        margin-right: 20px;
+        margin-left: 0%;
+
+    }
+    .header__title{
+        padding-left: 0%;
+        padding-left: 100px;
+        width: 4vw;
+        padding-right: 50%;
+    }
+     
+    .header__icon{
+        display: none;
+    }
+    .about{
+        background-color: black;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    
+    .about__title{
+        position: relative;
+        padding-top: 15%;
+        margin-left: 5%;
+        width: 200px;
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .about__column{
+        margin-left: 5%;
+        margin-top: 5%;
+        width: 280px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .about__line-text{
+        margin-top: 19%;
+        margin-left: 5%;
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .about__background-1{
+        position: absolute;
+        right: 0;
+        top: -10%;
+    }
+    
+    .about__background-2{
+        position: absolute;
+        width: 125px;
+        height: 125px;
+        left: -10%;
+        top: 45%;
+    }
+    .about__background-2 img{
+        width: 5vw;
+    }
+    .about__background-3 img{
+        display: none;
+    }
+    .about__buttons-mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about__buttons-mobile__apstore img{
+        width: 200px;
+    }
+    .about__buttons-mobile__google img{
+        width: 200px;
+    }
+    .about__buttons-mobile__google{
+        padding-top: 20px;
+    }
+    .application-demo{
+        position: absolute;
+        right: 0;
+        top:0%;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .application-demo__icon img{
+        width: 300px;
+        height: auto;
+        margin-top: 40%;
+        padding-left: 80%;
+    }
+    .application-demo__cases__appstore{
+        display: none;
+    }
+    .application-demo__cases__googleplay{
+        display: none;
+    }
+    .alert-cookies{
+        order: 2;
+    }
+    .about-mission{
+        display: flex;
+        flex-direction: column;
+        order: 1;
+        padding-bottom: 80px;
+    }
+    .about-mission__columns-user{
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        order: 1;
+    }
+    .about-mission__columns-user__column__contact{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        margin: 30px;
+    }
+    .about-mission__columns-user__column__login{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        margin: 30px;
+    }
+    .about-mission__phone-pic{
+        position: relative;
+        margin-top: 0%;
+        transform:rotate(0deg);
+        margin-left: 0%;
+        display: flex;
+        justify-content: center;
+        order: 3;
+    }
+    .about-mission__phone-pic img{
+        width: 90vw;
+        height: auto;
+    }
+    .about-mission__column{
+        margin-top: 0%;
+        margin-left: 0%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        order: 2;
+    }
+    .about-mission__column br{
+        display: none;
+    }
+    .about-mission__column__heading{
+        padding-left: 4%;
+        font-size: 5vw;
+    }
+    .about-mission__column__text{
+        width: 350px;
+        padding-left: 5%
+    }
+    .for-mobile-version{
+        display: flex;
+        flex-direction: column;
+    }
+    .alert-cookies__text{
+        width: 220px;
+    }
+    .verification__background-img{
+        width: 100%;
+        height: auto;
+
+    }
+    .verification__background-img img{
+        position: relative;
+
+    }
+    .verification{
+        display: flex;
+        flex-direction: column;
+        align-content: center; 
+    }
+    .verification__phones{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        order: 2;
+        padding-left: 0%;
+        padding-top:100px ;
+    }
+    .verification__phones__phone-1{
+        padding-left: 0%;
+    }
+    .verification__phones__phone-1 img{
+        width: 300px;
+    }
+    .verification__phones__phone-2{
+        padding-left: 0%;
+        padding-top: 50px;
+    }
+    .verification__phones__phone-2 img{
+        width: 300px;
+    }
+    .verification__column{
+        order: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 200px;
+    }
+    .verification__column br{
+        display: none;
+    }
+    .verification__column__text{
+        font-size: 18px;
+        width: 350px;
+    }
+    .bi-tools{
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+    }
+    .bi-tools__column{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bi-tools__column__heading{
+        font-size: 24px;
+        padding-right: 100px;
+    }
+    .bi-tools__column__text{
+        font-size: 16px;
+        line-height: 22px;
+        width: 340px;
+    }
+    .bi-tools__column__text br{
+        display: none;
+    }
+    .bi-tools__icons{
+        width: 50%;
+        padding-top: 80px;
+        overflow: hidden;
+    }
+    .bi-tools__icons__icon-1{
+        margin-top: 15%;
+        margin-left: -32%;
+    }
+    .bi-tools__icons__icon-1 img{
+        width: 145px;
+    }
+    .bi-tools__icons__icon-2 img{
+        width: 110px;
+    }
+    .bi-tools__icons__icon-3 img{
+        width: 86px;
+    }
+    .bi-tools__icons__icon-5 img{
+        width: 100px;
+    }
+    .bi-tools__icons__icon-6 img{
+        width: 91px;
+    }
+    .bi-tools__icons__icon-7 img{
+        width: 300px;
+    }
+    .bi-tools__icons__icon-2{
+        margin-top: 0%;
+        margin-left: 0%;
+        left: 23%;
+    }
+    .bi-tools__icons__icon-3{
+        margin-top: -15%;
+        margin-left: 0%;
+        right: 2%;
+    }
+    .bi-tools__icons__icon-4{
+        display: none;
+    }
+    .bi-tools__icons__icon-5{
+        margin-top: -8%;
+        margin-left: 0;
+        right: 18%;
+    }
+    .bi-tools__icons__icon-6{
+        margin-top:10%;
+        margin-left: 22%;
+    }
+    .bi-tools__icons__icon-7{
+        margin-top: 30%;
+        right: -18%;
+    }
+    .qr-code{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+    }
+    .qr-code__background{
+        background-image: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        order: 1;
+    }
+    .qr-code__water{
+        width: 100%;
+        order: 2;
+    }
+    .qr-code__water img{
+        width: 350px;
+    }
+    .qr-code__column{
+        background-image: linear-gradient(179.83deg, #000000 -3.1%, rgba(0, 0, 0, 0) 56.76%, #000000 83.92%),
+        url('../../img/qr-code__background.png');
+        background-position: top left;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+        padding-top: 100px;
+    }
+    .qr-code__column__heading{
+        padding-bottom: 0px;
+    }
+    .qr-code__column__download-items{
+        background: black;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+    }
+    .qr-code__column__download-items img{
+        width: 185px;
+    }
+    .qr-code__column__download-items__google{
+        padding-top: 30px;
+        padding-left: 0;
+    }
+    .qr-code__title {
+        margin-left: 0;
+        left: 20px;
+        top: 50%;
+    }
+    .qr-code__phones{
+        position: relative;
+        order: 3;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+    }
+    .qr-code__phones__item-1{
+        padding-right: 0;
+    }
+    .qr-code__phones__item-1 img{
+        position: relative;
+        width: 70vw;
+    }
+    .qr-code__phones__item-2 {
+        padding-left: 0;
+    }
+    .qr-code__phones__item-2 img{
+        position: relative;
+        width: 70vw;
+    }
+    .generate-qr-code{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 100px;
+    }
+    .generate-qr-code__phone{
+        order: 2;
+    }
+    .generate-qr-code__phone__arrow-scan{
+        position: absolute;
+        top: 80%;
+        right: 0%;
+    }
+    .generate-qr-code__phone__arrow-scan__arrow img{
+        width: 80px;
+        padding-left: 100px;
+        padding-bottom: 40px;
+        transform:rotate(30deg);
+    }
+    .generate-qr-code__phone__arrow-scan__scan{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .generate-qr-code__columns{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        order: 1;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .generate-qr-code__columns__column-1{
+        font-size: 24px;
+        line-height: 29px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+    }
+    .generate-qr-code__columns__column-1 br{
+        display: none;
+    }
+    .generate-qr-code__columns__column-2{
+        font-family: NotoSans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        padding-right: 0px;
+        padding-left: 30px;
+    }
+    .phone-long__column__heading{
+        font-size: 24px;
+        line-height: 29px;
+        justify-content: start;
+    }
+    .phone-long__column{
+        padding-bottom: 120px;
+        padding-right: 0;
+        padding-left: 30px;
+    }
+    .phone-long__column__text{
+        display: block;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .phone-long__phone-pic__columns-text{
+        font-size: 14px;
+        line-height: 16px;
+        padding: 10px;
+    }
+    .phone-long__phone-pic__columns__column-1{
+        top: 10%;
+        left: 55%;
+    }
+    .phone-long__phone-pic__columns__column-2{
+        top: -20%;
+        left: 18%;
+    }
+    .phone-long__phone-pic__columns__column-3{
+        top: 92%;
+        left: 65%;
+    }
+    .phone-long__phone-pic__columns__column-4{
+        top: 75%;
+        left: 20%;
+    }
+    .notab{
+        display: none;
+    }
+    .get-in-touch{
+        padding-top: 100px;
+    }
+    .get-in-touch__column br{
+        display: none;
+    }
+    .get-in-touch__column{
+        width: 80vw;
+    }
+    .get-in-touch__column__heading{
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .get-in-touch__column__text{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .get-in-touch__background-1 img{
+        width: 200px;
+        overflow: hidden;
+    }
+    .get-in-touch__form-person-data__allforms{
+        padding: 20px;
+        width: 100%;
+    }
+    .get-in-touch__form-person-data{
+        width: 90%;
+    }
+    .get-in-touch__form-person-data__city{
+        width: 100%;
+        flex-direction: column;
+    }
+    .get-in-touch__form-person-data__mes{
+        padding-bottom: 140px;
+    }
+    .get-in-touch__form-person-data__butt-send{
+        width: 100%;
+        height: 80px;
+        color: white;
+        margin-top: 40px;
+    }
+    .get-in-touch__download__buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .get-in-touch__download__buttons__appst img{
+        margin-right: 0;
+        width: 185px;
+        height: auto;
+    }
+    .get-in-touch__download__buttons__google img{
+        width: 185px;
+        height: auto;
+    }
+    .get-in-touch__download__buttons__google{
+        width: 185px;
+        height: auto;
+        padding-top: 24px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+        padding-top: 100px;
+    }
+    .footer__column-1 br{
+        display: none;
+    }
+    .footer__column-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding:0;
+        order: 2;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .footer__column-1__text-1{
+        display: flex;
+        justify-content: center;
+    }
+    .footer__column-1__text-2{
+        display: flex;
+        justify-content: center;
+    }
+    .footer__column-2{
+
+        padding:0;
+        order: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__background {
+        width: 225px;
+        height: 224px;
+        left: -20%;
+        top: 67%;
+        margin-top: 0;
+    }
+}
+@media screen and (max-width: 370px) {
+    .bi-tools__column__text {
+        width: 240px;
+    }
+    .verification__column__text {
+        width: 240px;
+    }
+    .about-mission__column__text {
+        width: 240px;
+    }
+    .about__column {
+        width: 240px;
+    }
+    .application-demo__icon img {
+        width: 200px;
+        height: auto;
+    }
+    .about__background-1{
+        overflow: hidden;
+    }
+    .header{
+        padding-right: 30px;
+    }
+}

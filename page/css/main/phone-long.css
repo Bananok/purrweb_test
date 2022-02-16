@@ -1,0 +1,82 @@
+.phone-long{
+    background-color: black;
+    padding-top: 200px;
+    width: 100%;
+}
+.phone-long__column{
+    position: relative;
+    color: white;
+    font-style: normal;
+    padding-right: 10%;
+}
+.phone-long__column__heading{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 51px;
+    line-height: 62px;
+    display: flex;
+    justify-content: end;
+}
+.phone-long__column__text{
+    padding-top: 30px;
+    padding-right: 42px;
+    display: flex;
+    justify-content: end;
+    font-family: NotoSans;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+}
+.phone-long__phone-pic{
+    display: flex;
+    justify-content: center;
+    position:relative;
+    
+}
+.phone-long__phone-pic__background{
+    position: absolute;
+    background: linear-gradient(12.08deg, #F101BF 2.82%, #0066FF 97.06%);
+    opacity: 0.8;
+    filter: blur(250px);
+    transform: rotate(5.78deg);
+    width: 18vw;
+    height: 18vw;
+    left: 80%;
+    top: 10%;
+}
+.phone-long__phone-pic__columns{
+    color: white;
+}
+.phone-long__phone-pic__columns-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22.8px;
+    line-height: 27px;
+    background: #000000;
+    border: 0.76007px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    border-radius: 18.2417px;
+    padding: 20px;
+}
+.phone-long__phone-pic__columns__column-1{
+    position: absolute;
+    top: 20%;
+    left: 55%;
+}
+.phone-long__phone-pic__columns__column-2{
+    position: absolute;
+    top: 35%;
+    left: 18%;
+}
+.phone-long__phone-pic__columns__column-3{
+    position: absolute;
+    top: 62%;
+    left: 69%;
+}
+.phone-long__phone-pic__columns__column-4{
+    position: absolute;
+    top: 40%;
+    left: 33%;
+    top: 70%;
+}

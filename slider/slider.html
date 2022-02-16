@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="slider.css" rel="stylesheet">
+    <title>Slider</title>
+</head>
+<body>
+  <div class="slider">
+  <div class="slider-line">
+    <div class="slider__line__item">
+        <div class="slideText">Заголовок слайда 5</div>
+    </div>
+
+    <div class="slider__line__item">
+        <div class="slideText">Заголовок слайда 1</div>
+    </div>
+
+    <div class="slider__line__item">
+        <div class="slideText">Заголовок слайда 2</div>
+    </div>
+    <div class="slider__line__item">
+      <div class="slideText">Заголовок слайда 3</div>
+  </div>
+  <div class="slider__line__item">
+    <div class="slideText">Заголовок слайда 4</div>
+</div>
+<div class="slider__line__item">
+  <div class="slideText">Заголовок слайда 5</div>
+</div>
+<div class="slider__line__item">
+  <div class="slideText">Заголовок слайда 1</div>
+</div>
+</div>
+</div>
+<button class="prev" onclick="minusSlide()">&#10094;</button>
+<button class="next" onclick="plusSlide()">&#10095;</button>
+
+<div class="slider-dots">
+    <button class="slider-dots_item" id="dot-1" onclick="currentSlide(1)"></button> 
+    <button class="slider-dots_item" id="dot-2" onclick="currentSlide(2)"></button> 
+    <button class="slider-dots_item" id="dot-3" onclick="currentSlide(3)"></button>
+    <button class="slider-dots_item" id="dot-4" onclick="currentSlide(4)"></button> 
+    <button class="slider-dots_item" id="dot-5" onclick="currentSlide(5)"></button>  
+</div>
+    <script src="js/slider.js"></script>
+    
+</body>
+</html>

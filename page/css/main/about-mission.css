@@ -1,0 +1,87 @@
+.about-mission{
+   padding-top:50px ;
+   background-color: black;
+   padding-bottom: 350px;
+   width: 100%;
+}
+.about-mission__columns-user{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.about-mission__columns-user__column__contact{
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    border-radius: 21.3671px;
+    padding-left: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 7%;
+}
+.about-mission__columns-user__column__login{
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    border-radius: 21.3671px;
+    padding-left: 3%;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    padding-right: 7%;
+}
+.about-mission__columns-user__column__text{
+    font-family: NotoSans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+}
+.about-mission__columns-user__column__href{
+    font-family: NotoSans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    text-decoration-skip-ink: none;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+.about-mission__phone-pic{
+    position: absolute;
+    margin-top: -13%;
+    transform:rotate(90deg);
+    margin-left: -12%;
+}
+.about-mission__phone-pic img{
+    width: 800px;
+    height: auto;
+}
+.about-mission__column{
+    position: relative;
+    color: #FFFFFF;
+    margin-top: 17%;
+    margin-left: 60%;
+}
+
+.about-mission__column__heading{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 51px;
+    line-height: 62px;
+}
+.about-mission__column__text{
+    margin-top: 5%;
+    font-family: NotoSans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+}
+.about-mission__column img{
+    position: absolute;
+    margin-left: 15%;
+    margin-top:-15%;
+}
+.for-mobile-section{
+    display: none;
+}
